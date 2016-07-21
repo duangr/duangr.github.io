@@ -339,7 +339,7 @@
 </li>
 <li><p>更新<br>svn update (up) -r m PATH</p>
 </li>
-<li><p>添加<br>svn add file</p>
+<li><p>添加<br>svn add file<br>svn status |awk ‘{if($1 == “?”){print $2}}’|xargs svn add</p>
 </li>
 <li><p>删除<br>svn delete (del,remove,rm) PATH</p>
 </li>

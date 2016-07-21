@@ -91,11 +91,9 @@
 
 更新svn update (up) -r m PATH
 
-添加svn add file
+添加svn add filesvn status |awk ‘{if($1 == “?”){print $2}}’|xargs svn add
 
-删除svn delete (del,remove,rm) PATH
-
-提交svn commit (ci) -m “log msg” [–no-unlock] PATH">
+删除svn delete (del,remove,rm">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SVN常用命令">
 <meta property="og:url" content="http://www.duangr.com/2016/07/12/svn-command/index.html">
@@ -107,12 +105,10 @@
 
 更新svn update (up) -r m PATH
 
-添加svn add file
+添加svn add filesvn status |awk ‘{if($1 == “?”){print $2}}’|xargs svn add
 
-删除svn delete (del,remove,rm) PATH
-
-提交svn commit (ci) -m “log msg” [–no-unlock] PATH">
-<meta property="og:updated_time" content="2016-07-12T06:18:52.000Z">
+删除svn delete (del,remove,rm">
+<meta property="og:updated_time" content="2016-07-21T01:21:32.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SVN常用命令">
 <meta name="twitter:description" content="前言记录svn命令行的常用命令.
@@ -122,11 +118,9 @@
 
 更新svn update (up) -r m PATH
 
-添加svn add file
+添加svn add filesvn status |awk ‘{if($1 == “?”){print $2}}’|xargs svn add
 
-删除svn delete (del,remove,rm) PATH
-
-提交svn commit (ci) -m “log msg” [–no-unlock] PATH">
+删除svn delete (del,remove,rm">
 
 
 
@@ -366,7 +360,7 @@
 </li>
 <li><p>更新<br>svn update (up) -r m PATH</p>
 </li>
-<li><p>添加<br>svn add file</p>
+<li><p>添加<br>svn add file<br>svn status |awk ‘{if($1 == “?”){print $2}}’|xargs svn add</p>
 </li>
 <li><p>删除<br>svn delete (del,remove,rm) PATH</p>
 </li>
